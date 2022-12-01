@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 const schema = mongoose.Schema({
+  _id: mongoose.Types.ObjectId,
   topic: String,
   username: String,
   time: String,
