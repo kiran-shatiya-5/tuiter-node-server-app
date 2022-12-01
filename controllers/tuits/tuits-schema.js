@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
+const tuitId = mongoose.Types.ObjectId(req.params.tid);
 const schema = mongoose.Schema({
-  _id: {type: String},
   topic: String,
   username: String,
   time: String,
